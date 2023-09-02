@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me</title>
+    <link rel="stylesheet" href="about.css" />
+    <script
+      src="https://kit.fontawesome.com/c9f70db3c4.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- --------------------About------------------- -->
+    <div class="navbar">
+      <nav>
+        <div class="logo">My Portfolio</div>
+        <input type="checkbox" id="click" />
+        <label for="click" class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href=""></a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="about">
+      <div class="container">
+        <div class="row aboutme">
+          <div class="about-col-1">
+            <img
+              class="x"
+              src="images/WhatsApp Image 2022-11-19 at 20.51.30.jpg"
+              alt=""
+            />
+          </div>
+          <div class="about-col-2">
+            <h1 class="subtitle"><span>About me</span></h1>
+            <p class="intro">
+              My name is <span>A</span>ryan Tomar and I am pursing B.Tech from
+              KIET group of Institution,Ghaziabad. My branch is computer
+              science.I completed my class 12th and 10th from Alpine Public
+              School,Baraut(Baghpat). <br />
+              I am a Frontend Developer and learning Backed Development , Data
+              Structure and Algorithm. I solve more than 150+ ques on LeetCode
+              and 60+ ques on GFG.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('projects')">Projects</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab">
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                  <li><span>HTML</span></li>
+                  <li><span>CSS</span></li>
+                  <li><span>Javascript</span></li>
+                  <li><span>React.js</span></li>
+                  <li><span>Node.js</span></li>
+                  <li><span>Express.js</span></li>
+                  <li><span>MongoDB</span></li>
+                  <li><span>Java</span></li>
+                  <li><span>Data Structures and Algorithm</span></li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="projects">
+                <ul>
+                  <li>
+                    <span style="color: white">1)</span>
+                    <span style="cursor: pointer"
+                      >Health-FY
+                      <a href="https://github.com/AryanTomar2025/Healthy-FY"
+                        >Github Link</a
+                      > </span
+                    ><br />
+                    It is a Full stack Web development project based on Mern
+                    Stack. <br />
+                    Health-FY is a Website which help us in may ways like for
+                    predictation of Diseases using ML , Helps people to fix
+                    their appointment with certified doctors , Helps people to
+                    find flood and to donate blood <br />
+                    <br />
+                    Tech Used --> • <span class="tech">HTML</span> •
+                    <span class="tech">CSS</span> •
+                    <span class="tech">Javascript</span> •
+                    <span class="tech">PHP</span> •
+                    <span class="tech">MySQL</span> •
+                    <span class="tech"
+                      >Machine Learning(Random forest algorithm)</span
+                    >
+                  </li>
+                  <br />
+                  <li>
+                    <span style="color: white">2)</span>
+                    <span
+                      >Make-Notes<a
+                        href="https://github.com/AryanTomar2025/Make_Notes"
+                        >Github Link</a
+                      > </span
+                    ><br />• It is a Frond End based project. <br />
+                    • Successfully completed the development of a Makes Notes
+                    convertor in 1 weeks. <br />
+                    • Make Notes is a Online Website which help us to save short
+                    notes.
+                    <br />
+                    • The project was successfully deployed and is currently
+                    live.
+                    <br /><br />
+                    Tech Used --> • <span class="tech">HTML</span> •
+                    <span class="tech">CSS</span> •
+                    <span class="tech">JAVASCRIPT</span>.
+                  </li>
+                  <br />
+                  <li>
+                    <span style="color: white">3)</span>
+                    <span
+                      >Currency_Convertor<a
+                        href="https://github.com/AryanTomar2025/currency-convertor-"
+                        >Github Link</a
+                      > </span
+                    ><br />
+
+                    • It is a Frond End based project. <br />
+                    Tech Used--> • <span class="tech">HTML</span> •
+                    <span class="tech">CSS</span> •
+                    <span class="tech">Javascript</span> <br />
+                    • Successfully completed the development of a real-time
+                    currency convertor all currencies in 2 weeks <br />
+                    • The project was successfully deployed and is currently
+                    live.
+                    <br />
+                    • Developed the project in collaboration with a team of 2
+                    developers. <br />
+                    • The project was completed ahead of schedule . <br />
+                    • The project met all requirements and went through a
+                    rigorous QA process
+                  </li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="education">
+                <ul>
+                  <li>
+                    <span>High School</span><br />2018-2019 <br />Alpine Public
+                    School,Baraut(Baghpat) <br />Percentage=85
+                  </li>
+                  <li>
+                    <span>Intermediate</span><br />2019-2020 <br />Alpine Public
+                    School,Baraut(Baghpat) <br />Percentage=90
+                  </li>
+                  <li>
+                    <span>B.Tech</span><br />2021-2025 <br />KIET Group Of
+                    Institutions,Ghaziabad(Delhi NCR)<br />SGPA=7.05
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+  </body>
+</html>
